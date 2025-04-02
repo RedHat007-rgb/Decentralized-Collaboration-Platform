@@ -1,0 +1,33 @@
+# Node.js and npm files
+node_modules/
+package-lock.json
+
+# Vite build output (frontend)
+dist/
+build/
+
+# Backend logs and temp files
+logs/
+*.log
+*.pid
+
+# Environment variables
+.env
+.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing coverage reports
+coverage/
+
+# Dependency directories (if any)
+frontend/node_modules/
+backend/node_modules/

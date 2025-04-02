@@ -1,0 +1,63 @@
+# Node.js dependencies
+/node_modules/
+
+# npm log files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+/dist/
+/build/
+/coverage/
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE or editor files
+.vscode/
+.idea/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Miscellaneous
+*.tgz
+*.swp
+
+# Ignore coverage files from testing tools like jest or mocha
+/coverage/
+*.lcov
+
+# Ignore test/coverage directories and output
+/coverage/
+
+# Ignore dependency directories for frontend frameworks (e.g., React)
+public/
+
+# Ignore WebSocket client-side generated files (if any)
+public/build/
+client/build/
+
+# Ignore dependency lock files (if you don't want to version them)
+package-lock.json
+yarn.lock
+
+# Ignore runtime generated files (if any)
+*.pid
+*.seed
+
